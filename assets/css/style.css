@@ -1,18 +1,15 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
-@import url(//fonts.googleapis.com/css?family=Oswald:400,300);
-
 html {
     min-width: 400px;
 }
 
 body {
-    background: url(../images/background.jpg) no-repeat;
+    background: url(/images/background.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
     font-family: 'Open Sans', sans-serif;
 }
-
+ 
 a,
 a:hover,
 a:focus,

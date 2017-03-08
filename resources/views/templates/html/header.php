@@ -9,6 +9,8 @@
 	<meta name="webmoney" content="AFB717CE-7728-4074-9E39-B1DFA9688F87"/>
 
 	<title>Panuka.me</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 	<link href="/assets/styles.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
