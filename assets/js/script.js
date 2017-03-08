@@ -3,7 +3,7 @@ $(".lazy").lazyload({
 });
 $('.carousel-inner .item').first().addClass('active');
 $("#instagram-carousel").on('slide.bs.carousel', function () {
-	setTimeout(function () {
-		$( window ).resize();
-	}, 1);
+	var $itm = $('.item.active+.item img');
+	$itm.attr('src', $itm.attr('data-original'));
 });
+
