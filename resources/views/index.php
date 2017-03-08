@@ -26,19 +26,18 @@
 			</div>
 			<div class="col-md-6">
 				<div class="home-slider">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"
+					<div id="instagram-carousel" class="carousel slide" data-ride="carousel"
 					     style="padding-bottom: 30px;">
 						<ol class="carousel-indicators">
 						</ol>
 						<div class="carousel-inner">
 							<?php
-							$t = true;
 							foreach ($data as $img): ?>
-								<div class="item <?= $t ? 'active' : '' ?>">
+								<div class="item">
 									<div>
 										<a href="<?=$img['link']?>" target="_blank"><img
-												src="<?= $img['images']['standard_resolution']['url'] ?>"
-												class="img-responsive" alt=""></a>
+												data-original="<?= $img['images']['standard_resolution']['url'] ?>"
+												class="img-responsive lazy" width="100" height="100" alt=""></a>
 										<? if(strlen($img['location']['name'])): ?>
 											<span class="location meta-top"><i class="fa fa-map-marker" aria-hidden="true"></i> <?= $img['location']['name'] ?></span>
 										<? endif; ?>
@@ -50,11 +49,7 @@
 										<? endif; ?>
 									</div>
 								</div>
-								<?php
-
-								if ($t)
-									$t = false;
-							endforeach; ?>
+								<?php endforeach; ?>
 						</div>
 					</div>
 				</div>

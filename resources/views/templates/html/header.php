@@ -10,9 +10,7 @@
 
 	<title>Panuka.me</title>
 
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="/assets/styles.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body>
