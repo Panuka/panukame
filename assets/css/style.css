@@ -1034,3 +1034,10 @@ span.fulltext {
     height: 18px;
     padding-right: 10px;
 }
+
+span, h1, div {
+    cursor: default;
+}
+a, a span, a div {
+    cursor: pointer;
+}
