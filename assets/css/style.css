@@ -1,6 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import url(//fonts.googleapis.com/css?family=Oswald:400,300);
 
+html {
+    min-width: 400px;
+}
 
 body {
     background: url(../images/background.jpg) no-repeat;
@@ -28,7 +31,7 @@ li {
 }
 
 a, a:active, a:enabled, a:visited {
-    color: #FF432E;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -241,8 +244,12 @@ and (max-width : 1199px) {
         padding-bottom: 15px;
     }
 
+    .menu-item a {
+        padding: 14px 0;
+    }
+
     .menu-item a i {
-        font-size: 32px;
+        font-size: 33px;
     }
 
     .menu-item a p {
@@ -963,4 +970,67 @@ and (max-width : 991px) {
 .carousel-inner .item span.date {
     right: 0;
     text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contacts ul {
+    width: 100%;
+    text-align: center;
+}
+
+.contacts ul li {
+    display: inline-block;
+    background: #232323;
+    text-overflow: clip;
+    white-space: nowrap;
+    margin: 0 5px;
+    list-style: none;
+    height: 38px;
+    width: 38px;
+    overflow: hidden;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+.contacts i, .contacts a {
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.contacts ul li:hover i, .contacts ul li:hover a {
+    color: #FF432E;
+}
+
+.contacts i {
+    font-size: 25px;
+    margin: 0;
+    width: 38px;
+    line-height: 36px;
+    color: #fff;
+    display: inline-block;
+}
+
+@media(min-width : 600px) {
+    .contacts li:hover {
+        width: 200px;
+    }
+}
+
+span.fulltext {
+    position: relative;
+    top: 0;
+    display: inline-block;
+    overflow: hidden;
+    word-wrap: break-word;
+    height: 18px;
+    padding-right: 10px;
 }

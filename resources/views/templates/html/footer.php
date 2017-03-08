@@ -2,8 +2,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div>
-					Deals to <a href="mailto:agentrol75@gmail.com">agentrol75@gmail.com</a>
+				<div class="contacts">
+					<ul>
+						<li>
+							<a href="tel:79253442970" class="icon"><i class="fa fa-mobile" aria-hidden="true"></i><span class="fulltext">+7 (925) 344-29-70</span></a>
+						</li>
+						<li>
+							<a href="http://t.me/panuka" class="icon"><i class="fa fa-telegram" aria-hidden="true"></i><span class="fulltext">http://t.me/panuka</span></a>
+						</li>
+						<li>
+							<a href="mailto:agentrol75@gmail.com" class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="fulltext">agentrol75@gmail.com</span></a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

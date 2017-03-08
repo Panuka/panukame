@@ -25,7 +25,7 @@ var path = {
 	},
 	watch: {
 		js:    'assets/js/**/*.js',
-		style: 'assets/style/**/*.css',
+		style: 'assets/css/**/*.css',
 		fonts: 'assets/fonts/**/*.*'
 	},
 	clean: './build'
