@@ -37,6 +37,7 @@
 									<div>
 										<a href="<?=$img['link']?>" target="_blank"><img
 												data-original="<?= $img['images']['standard_resolution']['url'] ?>"
+												data-small="<?= $img['images']['low_resolution']['url'] ?>"
 												class="img-responsive lazy" width="100" height="100" alt=""></a>
 										<? if(strlen($img['location']['name'])): ?>
 											<span class="location meta-top"><i class="fa fa-map-marker" aria-hidden="true"></i> <?= $img['location']['name'] ?></span>
